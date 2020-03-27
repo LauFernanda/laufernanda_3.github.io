@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "#Política\u0026Redes"
+  },
+  "text": {
+    "more": "El vínculo entre dos nodos indica que fueron mencionados de manera conjunta en un número significativo de tuits. Etre más grueso el vínculo, más fuerte  la correlación\nEl color de cada nodo indica el cluster al que pertenece. Los clusters fueron detectados usando el algoritmo de  Louvain que identifica grupos de nodos más fuertemente conectados entre sí que con los demás.\nTanto el cálculo de corelación como el algoritmo de detección de comunidades  son agnósticas al significado de las palabras. \nQue un usuario aparezca en una comunidad no habla del comportamiento de este usuario, sino del de aquellos que lo mencionaron.",
+    "intro": "Esta red representa la correlación entre los hashtags y usuarios mencionados en los tuits de la Indagatoria contra el expresidente Álvaro Uribe.",
+    "title": "Red de correlaciones entre hashtags y mentions más usados durante la indagatoria de Álvaro Uribe"
+  },
+  "legend": {
+    "edgeLabel": "Correlación",
+    "colorLabel": "Comunidad",
+    "nodeLabel": "Hashtag o Mention "
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "name_community",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
