@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Laura Merchán"
+  },
+  "text": {
+    "more": "Las comunidades se detectaron usando el algoritmo de máxima modularidad de Louvain (1). \nEste método detecta grupos de nodosmás conectados entre sí que con el resto de la red por lo que es agnóstico al significado de los nodos.\n1) https://es.wikipedia.org/wiki/Método_de_Louvain ",
+    "intro": "",
+    "title": "corona conversation"
+  },
+  "legend": {
+    "edgeLabel": "interaction on twitter",
+    "colorLabel": "Community",
+    "nodeLabel": "user"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
