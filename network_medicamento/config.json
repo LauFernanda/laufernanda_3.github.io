@@ -8,18 +8,18 @@
     "text": "Laura Merchán"
   },
   "text": {
-    "more": "Las comunidades se detectaron usando el algoritmo de máxima modularidad de Louvain (1). \nEste método detecta grupos de nodosmás conectados entre sí que con el resto de la red por lo que es agnóstico al significado de los nodos.\n1) https://es.wikipedia.org/wiki/Método_de_Louvain ",
-    "intro": "",
-    "title": "corona conversation"
+    "more": "En esta red el grosor del arco indica el número de veces que la fuente de origen puso un enlace a la fuente de destino en sus artículos.\nEl color muestra las comunidades de la red, es decir, grupos de nodos más conectados entre sí que con otros nodos.\nEsta red fue construída a partir de los datos de mediacloud.org para monitoreo de prensa Colombiana.",
+    "intro": "Esta red representa las veces que un medio de comunicación colombiano ha remitido a otras fuentes en línea en los artículos que cubren los medicamentos que han sido anunciados como posibles tratamientos contra el coronavirus.",
+    "title": "Red de citaciones de medios de comunicación colombianos a fuentes externas"
   },
   "legend": {
-    "edgeLabel": "interaction on twitter",
-    "colorLabel": "Community",
-    "nodeLabel": "user"
+    "edgeLabel": "Número de citaciones entre las fuentes",
+    "colorLabel": "Comunidad",
+    "nodeLabel": "Medio"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
+    "groupSelectorAttribute": "community",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
