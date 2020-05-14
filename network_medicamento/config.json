@@ -8,14 +8,14 @@
     "text": "Laura Merchán"
   },
   "text": {
-    "more": "En esta red el grosor del arco indica el número de veces que la fuente de origen puso un enlace a la fuente de destino en sus artículos.\nEl color muestra las comunidades de la red, es decir, grupos de nodos más conectados entre sí que con otros nodos.\nEsta red fue construída a partir de los datos de mediacloud.org para monitoreo de prensa Colombiana.",
-    "intro": "Esta red representa las veces que un medio de comunicación colombiano ha remitido a otras fuentes en línea en los artículos que cubren los medicamentos que han sido anunciados como posibles tratamientos contra el coronavirus.",
+    "more": "En esta red el color muestra las comunidades de la red, es decir, grupos de nodos más conectados entre sí que con otros nodos.\nEsta red fue construída a partir de los datos de mediacloud.org para monitoreo de prensa Colombiana.",
+    "intro": "Esta red representa las conexiones entre medios de comunicación colombianos y las fuentes que cita en los artículos que cubren los medicamentos que han sido anunciados como posibles tratamientos contra el coronavirus.",
     "title": "Red de citaciones de medios de comunicación colombianos a fuentes externas"
   },
   "legend": {
     "edgeLabel": "Número de citaciones entre las fuentes",
     "colorLabel": "Comunidad",
-    "nodeLabel": "Medio"
+    "nodeLabel": "Medio o fuente"
   },
   "features": {
     "search": true,
